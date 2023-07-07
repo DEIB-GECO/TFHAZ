@@ -9,7 +9,8 @@ R/Bioconductor package to identify Transcription Factor High Accumulation DNA Zo
 ## Requirements
 
 The library requires the following:
-* R version 3.5 or higher
+* R version 3.5 or higher.
+  
 It is recommended the use of the latest version of R and RStudio.
 
 ## Structure
