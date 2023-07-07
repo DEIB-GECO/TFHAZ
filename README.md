@@ -1,5 +1,5 @@
 # TFHAZ
-R package to identify Transcription Factor High Accumulation DNA Zones 
+R/Bioconductor package to identify Transcription Factor High Accumulation DNA Zones 
 
 [TFHAZ on Bioconductor](https://www.bioconductor.org/packages/release/bioc/html/TFHAZ.html)
 
