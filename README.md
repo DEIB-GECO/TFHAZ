@@ -31,4 +31,4 @@ TFHAZ/
 - [data](data) folder containing the datasets to run correctly all the tests
 - [example_ENCODE](example_ENCODE) folder including a BED file with the HOT regions resulting from global analysis of recent ENCODE ChIP-seq Narrow peak data 
 - [man](man) folder containing R documentation files
-- [vignettes](vignettes)/ folder containing all the files used to generate the vignettes correctly
+- [vignettes](vignettes) folder containing all the files used to generate the vignettes correctly
