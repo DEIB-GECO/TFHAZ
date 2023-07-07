@@ -1,8 +1,10 @@
-Here we provide a BED file containing the HOT regions of transcription factor (TF) accumulation resulting from our global analysis of the most recent ENCODE ChIP-seq Narrow peak data extracted from our [*GMQL*](http://www.gmql.eu/) public repository.
+Here we provide a [**BED file**](https://github.com/DEIB-GECO/TFHAZ/blob/master/example_ENCODE/ENCODE_HOT_ZONES_base_acc_1000_ov_std_chr_all.bed) containing the HOT regions of transcription factor (TF) accumulation resulting from our global analysis of the most recent ENCODE ChIP-seq Narrow peak data extracted from our [*GMQL*](http://www.gmql.eu/) public repository.
+
 For our investigation, we collected only ENCODE samples containing ”optimal IDR thresholded peaks”, i.e., NARROW PEAK samples of higher quality according to the Irreproducible Discovery Rate
 (IDR), which measures the reproducibility of high-throughput experiments. Thus, we considered to an overall amount of 12'601'854 input binding regions related to 486 different TFs.
 Data extraction and processing were performed first using [**RGMQL**](https://github.com/DEIB-GECO/RGMQL), another R/Bioconductor package, and then our **TFHAZ** R/Bioconductor functions.
 Please refer to the [*vignette*](https://github.com/DEIB-GECO/TFHAZ/tree/master/vignettes) for further details about using *TFHAZ* functionalities.
+
 This wide dataset was explored using genomic base accumulation and a moving window semi-width of 1000 bases in combination with the overlap method to investigate at higher resolution the local accumulation variability along the entire genome. The resulting 33'404 HOT zones in the provided BED file can be loaded on genome browsers for further investigations by any interested researcher.
 For example, we analysed them using [XSTREME](https://meme-suite.org/meme/tools/xstreme), a web-based tool of the MEME Suite to perform both known and de-novo motif discovery and enrichment analysis: the obtained results indicate no enriched known motif in these HOT regions, compared to the database of TF binding motifs' HOmo sapiens COmprehensive MOdel Collection' (HOCOMOCO) v11; the absence of known TF-specific binding motifs enriched in the HOT zones identified by TFHAZ confirms this characteristic that already emerged in previous comprehensive studies on the subject.
 
