@@ -1,7 +1,7 @@
 Here we provide a [**BED file**](https://github.com/DEIB-GECO/TFHAZ/blob/master/example_ENCODE/ENCODE_HOT_ZONES_base_acc_1000_ov_std_chr_all.bed) containing the HOT regions of transcription factor (TF) accumulation resulting from our global analysis of the most recent ENCODE ChIP-seq Narrow peak data extracted from our [*GMQL*](http://www.gmql.eu/) public repository.
 
 For our investigation, we collected only ENCODE samples containing ”optimal IDR thresholded peaks”, i.e., NARROW PEAK samples of higher quality according to the Irreproducible Discovery Rate
-(IDR), which measures the reproducibility of high-throughput experiments. Thus, we considered to an overall amount of 12'601'854 input binding regions related to 486 different TFs.
+(IDR), which measures the reproducibility of high-throughput experiments. Thus, we considered an overall amount of 12'601'854 input binding regions related to 486 different TFs.
 Data extraction and processing were performed first using [**RGMQL**](https://github.com/DEIB-GECO/RGMQL), another R/Bioconductor package, and then our [**TFHAZ**](https://bioconductor.org/packages/release/bioc/html/TFHAZ.html) R/Bioconductor functions.
 Please refer to the [*vignettes*](https://github.com/DEIB-GECO/TFHAZ/tree/master/vignettes) for further details about using *TFHAZ* functionalities.
 
